@@ -8145,202 +8145,423 @@ var _elm_lang$html$Html_Attributes$classList = function (list) {
 };
 var _elm_lang$html$Html_Attributes$style = _elm_lang$virtual_dom$VirtualDom$style;
 
-var _user$project$Main$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgram(
-	A2(
-		_elm_lang$html$Html$div,
-		{ctor: '[]'},
-		{
-			ctor: '::',
-			_0: A2(
-				_elm_lang$html$Html$nav,
-				{
-					ctor: '::',
-					_0: _elm_lang$html$Html_Attributes$class('navbar navbar-expand-md navbar-dark fixed-top bg-dark'),
-					_1: {ctor: '[]'}
-				},
-				{
-					ctor: '::',
-					_0: A2(
-						_elm_lang$html$Html$a,
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$class('navbar-brand'),
-							_1: {
-								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$href('#'),
-								_1: {ctor: '[]'}
-							}
-						},
-						{
-							ctor: '::',
-							_0: _elm_lang$html$Html$text('Hades'),
-							_1: {ctor: '[]'}
-						}),
-					_1: {
+var _user$project$Main$footer_content = A2(
+	_elm_lang$html$Html$footer,
+	{
+		ctor: '::',
+		_0: _elm_lang$html$Html_Attributes$class('container'),
+		_1: {ctor: '[]'}
+	},
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$p,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('© Company 2017'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	});
+var _user$project$Main$main_content = A2(
+	_elm_lang$html$Html$main_,
+	{
+		ctor: '::',
+		_0: A2(_elm_lang$html$Html_Attributes$attribute, 'role', 'main'),
+		_1: {ctor: '[]'}
+	},
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$div,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$class('jumbotron'),
+				_1: {ctor: '[]'}
+			},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('container'),
+						_1: {ctor: '[]'}
+					},
+					{
 						ctor: '::',
 						_0: A2(
-							_elm_lang$html$Html$button,
+							_elm_lang$html$Html$h4,
 							{
 								ctor: '::',
-								_0: A2(_elm_lang$html$Html_Attributes$attribute, 'aria-controls', 'navbarsExampleDefault'),
-								_1: {
-									ctor: '::',
-									_0: A2(_elm_lang$html$Html_Attributes$attribute, 'aria-expanded', 'false'),
-									_1: {
-										ctor: '::',
-										_0: A2(_elm_lang$html$Html_Attributes$attribute, 'aria-label', 'Toggle navigation'),
-										_1: {
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('navbar-toggler'),
-											_1: {
-												ctor: '::',
-												_0: A2(_elm_lang$html$Html_Attributes$attribute, 'data-target', '#navbarsExampleDefault'),
-												_1: {
-													ctor: '::',
-													_0: A2(_elm_lang$html$Html_Attributes$attribute, 'data-toggle', 'collapse'),
-													_1: {
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$type_('button'),
-														_1: {ctor: '[]'}
-													}
-												}
-											}
-										}
-									}
-								}
+								_0: _elm_lang$html$Html_Attributes$class('display-4'),
+								_1: {ctor: '[]'}
 							},
 							{
 								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$span,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('navbar-toggler-icon'),
-										_1: {ctor: '[]'}
-									},
-									{ctor: '[]'}),
+								_0: _elm_lang$html$Html$text('Mentorship. Open-source. Free.'),
 								_1: {ctor: '[]'}
 							}),
 						_1: {
 							ctor: '::',
 							_0: A2(
+								_elm_lang$html$Html$p,
+								{ctor: '[]'},
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html$text('Hades is open-source mentorship platform, where you can find a mentor and become one.'),
+									_1: {ctor: '[]'}
+								}),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$p,
+									{ctor: '[]'},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$a,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('btn btn-primary btn-lg'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$href('#'),
+													_1: {
+														ctor: '::',
+														_0: A2(_elm_lang$html$Html_Attributes$attribute, 'role', 'button'),
+														_1: {ctor: '[]'}
+													}
+												}
+											},
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('Learn more »'),
+												_1: {ctor: '[]'}
+											}),
+										_1: {ctor: '[]'}
+									}),
+								_1: {ctor: '[]'}
+							}
+						}
+					}),
+				_1: {ctor: '[]'}
+			}),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$div,
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$class('container'),
+					_1: {ctor: '[]'}
+				},
+				{
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('row'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
 								_elm_lang$html$Html$div,
 								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('collapse navbar-collapse'),
-									_1: {
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$id('navbarsExampleDefault'),
-										_1: {ctor: '[]'}
-									}
+									_0: _elm_lang$html$Html_Attributes$class('col-md-6'),
+									_1: {ctor: '[]'}
 								},
 								{
 									ctor: '::',
 									_0: A2(
-										_elm_lang$html$Html$ul,
+										_elm_lang$html$Html$h3,
+										{ctor: '[]'},
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('navbar-nav mr-auto'),
+											_0: _elm_lang$html$Html$text('Give, and you shall receive'),
 											_1: {ctor: '[]'}
-										},
-										{
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$p,
+											{ctor: '[]'},
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('To request a mentorship, you must become a mentor! We believe in forming a chain of good - there is always someone who can learn from your experiences.'),
+												_1: {ctor: '[]'}
+											}),
+										_1: {
 											ctor: '::',
 											_0: A2(
-												_elm_lang$html$Html$li,
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('nav-item'),
-													_1: {ctor: '[]'}
-												},
+												_elm_lang$html$Html$p,
+												{ctor: '[]'},
 												{
 													ctor: '::',
 													_0: A2(
 														_elm_lang$html$Html$a,
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('nav-link'),
+															_0: _elm_lang$html$Html_Attributes$class('btn btn-secondary'),
 															_1: {
 																ctor: '::',
 																_0: _elm_lang$html$Html_Attributes$href('#'),
-																_1: {ctor: '[]'}
+																_1: {
+																	ctor: '::',
+																	_0: A2(_elm_lang$html$Html_Attributes$attribute, 'role', 'button'),
+																	_1: {ctor: '[]'}
+																}
 															}
 														},
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html$text('About'),
+															_0: _elm_lang$html$Html$text('View details »'),
 															_1: {ctor: '[]'}
 														}),
+													_1: {ctor: '[]'}
+												}),
+											_1: {ctor: '[]'}
+										}
+									}
+								}),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$div,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('col-md-6'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$h3,
+											{ctor: '[]'},
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('Built with open-source love'),
+												_1: {ctor: '[]'}
+											}),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$p,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('The Hades platform is built with open-source software, and is 100% free. Elixir and Elm are the tech of choice. Deploy your own instance and start using it in your organization!'),
 													_1: {ctor: '[]'}
 												}),
 											_1: {
 												ctor: '::',
 												_0: A2(
-													_elm_lang$html$Html$li,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('nav-item'),
-														_1: {ctor: '[]'}
-													},
+													_elm_lang$html$Html$p,
+													{ctor: '[]'},
 													{
 														ctor: '::',
 														_0: A2(
 															_elm_lang$html$Html$a,
 															{
 																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$class('nav-link'),
+																_0: _elm_lang$html$Html_Attributes$class('btn btn-secondary'),
 																_1: {
 																	ctor: '::',
 																	_0: _elm_lang$html$Html_Attributes$href('#'),
-																	_1: {ctor: '[]'}
+																	_1: {
+																		ctor: '::',
+																		_0: A2(_elm_lang$html$Html_Attributes$attribute, 'role', 'button'),
+																		_1: {ctor: '[]'}
+																	}
 																}
 															},
 															{
 																ctor: '::',
-																_0: _elm_lang$html$Html$text('Mentorships'),
+																_0: _elm_lang$html$Html$text('View details »'),
 																_1: {ctor: '[]'}
 															}),
 														_1: {ctor: '[]'}
 													}),
+												_1: {ctor: '[]'}
+											}
+										}
+									}),
+								_1: {ctor: '[]'}
+							}
+						}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$hr,
+							{ctor: '[]'},
+							{ctor: '[]'}),
+						_1: {ctor: '[]'}
+					}
+				}),
+			_1: {ctor: '[]'}
+		}
+	});
+var _user$project$Main$navbar = A2(
+	_elm_lang$html$Html$nav,
+	{
+		ctor: '::',
+		_0: _elm_lang$html$Html_Attributes$class('navbar navbar-expand-md navbar-dark fixed-top bg-dark'),
+		_1: {ctor: '[]'}
+	},
+	{
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$a,
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$class('navbar-brand'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$href('#'),
+					_1: {ctor: '[]'}
+				}
+			},
+			{
+				ctor: '::',
+				_0: _elm_lang$html$Html$text('Hades'),
+				_1: {ctor: '[]'}
+			}),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$button,
+				{
+					ctor: '::',
+					_0: A2(_elm_lang$html$Html_Attributes$attribute, 'aria-controls', 'navbarsExampleDefault'),
+					_1: {
+						ctor: '::',
+						_0: A2(_elm_lang$html$Html_Attributes$attribute, 'aria-expanded', 'false'),
+						_1: {
+							ctor: '::',
+							_0: A2(_elm_lang$html$Html_Attributes$attribute, 'aria-label', 'Toggle navigation'),
+							_1: {
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('navbar-toggler'),
+								_1: {
+									ctor: '::',
+									_0: A2(_elm_lang$html$Html_Attributes$attribute, 'data-target', '#navbarsExampleDefault'),
+									_1: {
+										ctor: '::',
+										_0: A2(_elm_lang$html$Html_Attributes$attribute, 'data-toggle', 'collapse'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$type_('button'),
+											_1: {ctor: '[]'}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$span,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('navbar-toggler-icon'),
+							_1: {ctor: '[]'}
+						},
+						{ctor: '[]'}),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('collapse navbar-collapse'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('navbarsExampleDefault'),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$ul,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('navbar-nav mr-auto'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$li,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('nav-item'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$a,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('nav-link'),
 												_1: {
 													ctor: '::',
-													_0: A2(
-														_elm_lang$html$Html$li,
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('nav-item'),
-															_1: {ctor: '[]'}
-														},
-														{
-															ctor: '::',
-															_0: A2(
-																_elm_lang$html$Html$a,
-																{
-																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$class('nav-link'),
-																	_1: {
-																		ctor: '::',
-																		_0: _elm_lang$html$Html_Attributes$href('#'),
-																		_1: {ctor: '[]'}
-																	}
-																},
-																{
-																	ctor: '::',
-																	_0: _elm_lang$html$Html$text('Hosting'),
-																	_1: {ctor: '[]'}
-																}),
-															_1: {ctor: '[]'}
-														}),
+													_0: _elm_lang$html$Html_Attributes$href('#'),
 													_1: {ctor: '[]'}
 												}
-											}
+											},
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('About'),
+												_1: {ctor: '[]'}
+											}),
+										_1: {ctor: '[]'}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$li,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('nav-item'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$a,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class('nav-link'),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$href('#'),
+														_1: {ctor: '[]'}
+													}
+												},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('Mentorships'),
+													_1: {ctor: '[]'}
+												}),
+											_1: {ctor: '[]'}
 										}),
 									_1: {
 										ctor: '::',
 										_0: A2(
-											_elm_lang$html$Html$form,
+											_elm_lang$html$Html$li,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('form-inline'),
+												_0: _elm_lang$html$Html_Attributes$class('nav-item'),
 												_1: {ctor: '[]'}
 											},
 											{
@@ -8358,303 +8579,85 @@ var _user$project$Main$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProg
 													},
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html$text('Sign up'),
+														_0: _elm_lang$html$Html$text('Hosting'),
 														_1: {ctor: '[]'}
 													}),
+												_1: {ctor: '[]'}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}
+							}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$form,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('form-inline'),
+									_1: {ctor: '[]'}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$a,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('nav-link'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$href('#'),
+												_1: {ctor: '[]'}
+											}
+										},
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html$text('Sign up'),
+											_1: {ctor: '[]'}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$a,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('nav-link'),
 												_1: {
 													ctor: '::',
-													_0: A2(
-														_elm_lang$html$Html$a,
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('nav-link'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$href('#'),
-																_1: {ctor: '[]'}
-															}
-														},
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html$text('Sign in'),
-															_1: {ctor: '[]'}
-														}),
+													_0: _elm_lang$html$Html_Attributes$href('#'),
 													_1: {ctor: '[]'}
 												}
+											},
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html$text('Sign in'),
+												_1: {ctor: '[]'}
 											}),
 										_1: {ctor: '[]'}
 									}
 								}),
 							_1: {ctor: '[]'}
 						}
-					}
-				}),
-			_1: {
-				ctor: '::',
-				_0: A2(
-					_elm_lang$html$Html$main_,
-					{
-						ctor: '::',
-						_0: A2(_elm_lang$html$Html_Attributes$attribute, 'role', 'main'),
-						_1: {ctor: '[]'}
-					},
-					{
-						ctor: '::',
-						_0: A2(
-							_elm_lang$html$Html$div,
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('jumbotron'),
-								_1: {ctor: '[]'}
-							},
-							{
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$div,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('container'),
-										_1: {ctor: '[]'}
-									},
-									{
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$h1,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('display-3'),
-												_1: {ctor: '[]'}
-											},
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html$text('Mentorship. Open-source. Free.'),
-												_1: {ctor: '[]'}
-											}),
-										_1: {
-											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$p,
-												{ctor: '[]'},
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html$text('This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.'),
-													_1: {ctor: '[]'}
-												}),
-											_1: {
-												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$p,
-													{ctor: '[]'},
-													{
-														ctor: '::',
-														_0: A2(
-															_elm_lang$html$Html$a,
-															{
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$class('btn btn-primary btn-lg'),
-																_1: {
-																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$href('#'),
-																	_1: {
-																		ctor: '::',
-																		_0: A2(_elm_lang$html$Html_Attributes$attribute, 'role', 'button'),
-																		_1: {ctor: '[]'}
-																	}
-																}
-															},
-															{
-																ctor: '::',
-																_0: _elm_lang$html$Html$text('Learn more »'),
-																_1: {ctor: '[]'}
-															}),
-														_1: {ctor: '[]'}
-													}),
-												_1: {ctor: '[]'}
-											}
-										}
-									}),
-								_1: {ctor: '[]'}
-							}),
-						_1: {
-							ctor: '::',
-							_0: A2(
-								_elm_lang$html$Html$div,
-								{
-									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('container'),
-									_1: {ctor: '[]'}
-								},
-								{
-									ctor: '::',
-									_0: A2(
-										_elm_lang$html$Html$div,
-										{
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('row'),
-											_1: {ctor: '[]'}
-										},
-										{
-											ctor: '::',
-											_0: A2(
-												_elm_lang$html$Html$div,
-												{
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('col-md-6'),
-													_1: {ctor: '[]'}
-												},
-												{
-													ctor: '::',
-													_0: A2(
-														_elm_lang$html$Html$h2,
-														{ctor: '[]'},
-														{
-															ctor: '::',
-															_0: _elm_lang$html$Html$text('Give, and you shall receive'),
-															_1: {ctor: '[]'}
-														}),
-													_1: {
-														ctor: '::',
-														_0: A2(
-															_elm_lang$html$Html$p,
-															{ctor: '[]'},
-															{
-																ctor: '::',
-																_0: _elm_lang$html$Html$text('Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. '),
-																_1: {ctor: '[]'}
-															}),
-														_1: {
-															ctor: '::',
-															_0: A2(
-																_elm_lang$html$Html$p,
-																{ctor: '[]'},
-																{
-																	ctor: '::',
-																	_0: A2(
-																		_elm_lang$html$Html$a,
-																		{
-																			ctor: '::',
-																			_0: _elm_lang$html$Html_Attributes$class('btn btn-secondary'),
-																			_1: {
-																				ctor: '::',
-																				_0: _elm_lang$html$Html_Attributes$href('#'),
-																				_1: {
-																					ctor: '::',
-																					_0: A2(_elm_lang$html$Html_Attributes$attribute, 'role', 'button'),
-																					_1: {ctor: '[]'}
-																				}
-																			}
-																		},
-																		{
-																			ctor: '::',
-																			_0: _elm_lang$html$Html$text('View details »'),
-																			_1: {ctor: '[]'}
-																		}),
-																	_1: {ctor: '[]'}
-																}),
-															_1: {ctor: '[]'}
-														}
-													}
-												}),
-											_1: {
-												ctor: '::',
-												_0: A2(
-													_elm_lang$html$Html$div,
-													{
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('col-md-6'),
-														_1: {ctor: '[]'}
-													},
-													{
-														ctor: '::',
-														_0: A2(
-															_elm_lang$html$Html$h2,
-															{ctor: '[]'},
-															{
-																ctor: '::',
-																_0: _elm_lang$html$Html$text('Deploy your own instance'),
-																_1: {ctor: '[]'}
-															}),
-														_1: {
-															ctor: '::',
-															_0: A2(
-																_elm_lang$html$Html$p,
-																{ctor: '[]'},
-																{
-																	ctor: '::',
-																	_0: _elm_lang$html$Html$text('Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. '),
-																	_1: {ctor: '[]'}
-																}),
-															_1: {
-																ctor: '::',
-																_0: A2(
-																	_elm_lang$html$Html$p,
-																	{ctor: '[]'},
-																	{
-																		ctor: '::',
-																		_0: A2(
-																			_elm_lang$html$Html$a,
-																			{
-																				ctor: '::',
-																				_0: _elm_lang$html$Html_Attributes$class('btn btn-secondary'),
-																				_1: {
-																					ctor: '::',
-																					_0: _elm_lang$html$Html_Attributes$href('#'),
-																					_1: {
-																						ctor: '::',
-																						_0: A2(_elm_lang$html$Html_Attributes$attribute, 'role', 'button'),
-																						_1: {ctor: '[]'}
-																					}
-																				}
-																			},
-																			{
-																				ctor: '::',
-																				_0: _elm_lang$html$Html$text('View details »'),
-																				_1: {ctor: '[]'}
-																			}),
-																		_1: {ctor: '[]'}
-																	}),
-																_1: {ctor: '[]'}
-															}
-														}
-													}),
-												_1: {ctor: '[]'}
-											}
-										}),
-									_1: {
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$hr,
-											{ctor: '[]'},
-											{ctor: '[]'}),
-										_1: {ctor: '[]'}
-									}
-								}),
-							_1: {
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$footer,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('container'),
-										_1: {ctor: '[]'}
-									},
-									{
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$p,
-											{ctor: '[]'},
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html$text('© Company 2017'),
-												_1: {ctor: '[]'}
-											}),
-										_1: {ctor: '[]'}
-									}),
-								_1: {ctor: '[]'}
-							}
-						}
 					}),
 				_1: {ctor: '[]'}
+			}
+		}
+	});
+var _user$project$Main$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgram(
+	A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _user$project$Main$navbar,
+			_1: {
+				ctor: '::',
+				_0: _user$project$Main$main_content,
+				_1: {
+					ctor: '::',
+					_0: _user$project$Main$footer_content,
+					_1: {ctor: '[]'}
+				}
 			}
 		}));
 
